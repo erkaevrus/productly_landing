@@ -1,0 +1,51 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  @extend %font-primary;
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal)
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  @extend %font-add;
+  @include font($height: 5.4rem, $size: 4.4rem);
+}
+
+h2 {
+  @include font($size: 3.4rem, $height: 4.6rem);
+}
+
+h3 {
+  @include font($size: 2.4rem, $height: 3.4rem);
+}
+
+h4 {
+  @include font($size: 2.2rem, $height: 3.0rem, $weight: 600);
+}
+
+h5 {
+  @include font($size: 1.6rem, $height: 2.6rem);
+}
