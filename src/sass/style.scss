@@ -1,1 +1,30 @@
+@import "../../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+@import "abstract/constants";
+@import "abstract/mixins";
+@import "abstract/placeholders";
+
+
+// ---BASE---
+@import "base/base";
+@import "base/buttons";
+@import "base/logo";
+@import "base/_icons";
+@import "base/_tags";
+@import "base/hamburger";
+
+
+// ---LAYOUTS---
+@import "layouts/container";
+@import "layouts/header";
+@import "layouts/footer";
+
+
+// ---COMPONENTS---
+@import "components/navigation";
+@import "components/welcome";
+@import "components/tools";
+@import "components/strategies";
+@import "components/about-us";
+@import "components/contact-us";
 

@@ -1,0 +1,23 @@
+{
+  "name": "productly_landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erkaevrus/productly_landing.git"
+  },
+  "author": "erkaevrus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erkaevrus/productly_landing/issues"
+  },
+  "homepage": "https://github.com/erkaevrus/productly_landing#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
