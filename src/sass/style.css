@@ -422,11 +422,11 @@ template {
   font-family: "Open Sans", sans-serif;
 }
 
-h1 {
+.welcome__text, .link-button, h1 {
   font-family: "Poppins", serif;
 }
 
-.logo__img {
+.ico, .logo__img {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -526,6 +526,16 @@ h5 {
   background: #FF7549;
 }
 
+.link-button {
+  color: #FF9900;
+  display: flex;
+  align-items: center;
+  column-gap: 9px;
+}
+.link-button__text {
+  text-decoration: underline;
+}
+
 .logo {
   display: flex;
 }
@@ -533,6 +543,15 @@ h5 {
   background: url("../../src/img/logo/logo.svg");
   width: 190px;
   height: 32px;
+}
+
+.ico {
+  cursor: pointer;
+}
+.ico--play {
+  background: url("../../src/img/welcome/play-icon.svg");
+  width: 18px;
+  height: 19px;
 }
 
 .container {
@@ -576,6 +595,45 @@ h5 {
 }
 .navigation__link:hover {
   color: #FF9900;
+}
+
+.welcome {
+  padding: 25px 0 117px;
+  overflow: hidden;
+}
+.welcome__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.welcome__content {
+  max-width: 45.8333333333%;
+  margin-top: 90px;
+}
+.welcome__title {
+  margin-bottom: 30px;
+}
+.welcome__text {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8rem;
+  max-width: 487px;
+  margin: 0 0 55px;
+}
+.welcome__buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 43px;
+}
+.welcome__buttons > button {
+  width: 174px;
+  height: 53px;
+}
+.welcome__img {
+  background: url("../../src/img/welcome/welcome.png");
+  width: 642px;
+  height: 495px;
 }
 
 /*# sourceMappingURL=style.css.map */

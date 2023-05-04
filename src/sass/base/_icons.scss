@@ -1,0 +1,10 @@
+.ico {
+  cursor: pointer;
+  @extend %img-container;
+
+  &--play {
+    background: url("../../src/img/welcome/play-icon.svg");
+    width: 18px;
+    height: 19px;
+  }
+}

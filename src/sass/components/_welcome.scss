@@ -1,0 +1,43 @@
+.welcome {
+  padding: 25px 0 117px;
+  overflow: hidden;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  &__content {
+    max-width: calc(550/1200*100%);
+    margin-top: 90px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    @include font($size: 1.8rem, $height: 2.8rem, $weight: normal);
+    @extend %font-add;
+    max-width: 487px;
+    margin: 0 0 55px;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 43px;
+
+    >button {
+      width: 174px;
+      height: 53px;
+    }
+  }
+
+  &__img {
+    background: url("../../src/img/welcome/welcome.png");
+    width: 642px;
+    height: 495px;
+  }
+}
