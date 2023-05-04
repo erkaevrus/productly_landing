@@ -553,6 +553,26 @@ h5 {
   width: 18px;
   height: 19px;
 }
+.ico--arrow {
+  background: url("../../src/img/tools/arrow.svg");
+  width: 55px;
+  height: 50px;
+}
+.ico--snake {
+  background: url("../../src/img/tools/snake.svg");
+  width: 55px;
+  height: 50px;
+}
+.ico--heart {
+  background: url("../../src/img/tools/heart.svg");
+  width: 55px;
+  height: 50px;
+}
+.ico--clock {
+  background: url("../../src/img/tools/clock.svg");
+  width: 55px;
+  height: 50px;
+}
 
 .container {
   max-width: 1292px;
@@ -634,6 +654,46 @@ h5 {
   background: url("../../src/img/welcome/welcome.png");
   width: 642px;
   height: 495px;
+}
+
+.tools {
+  padding-bottom: 90px;
+  background: url("../../src/img/tools/Bg.svg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.tools__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.tools__container > button {
+  width: 171px;
+  height: 53px;
+}
+.tools__title {
+  max-width: 462px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.tools__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  max-width: 21.8333333333%;
+}
+.tool > .ico {
+  margin-bottom: 30px;
+}
+.tool__title {
+  padding-bottom: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

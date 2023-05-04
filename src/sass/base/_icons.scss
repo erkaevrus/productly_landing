@@ -7,4 +7,28 @@
     width: 18px;
     height: 19px;
   }
+
+  &--arrow {
+    background: url("../../src/img/tools/arrow.svg");
+    width: 55px;
+    height: 50px;
+  }
+
+  &--snake {
+    background: url("../../src/img/tools/snake.svg");
+    width: 55px;
+    height: 50px;
+  }
+
+  &--heart {
+    background: url("../../src/img/tools/heart.svg");
+    width: 55px;
+    height: 50px;
+  }
+
+  &--clock {
+    background: url("../../src/img/tools/clock.svg");
+    width: 55px;
+    height: 50px;
+  }
 }
