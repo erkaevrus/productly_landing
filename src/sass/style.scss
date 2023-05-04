@@ -7,8 +7,8 @@
 
 // ---BASE---
 @import "base/base";
-// @import "base/buttons";
-// @import "base/logo";
+@import "base/buttons";
+@import "base/logo";
 // @import "base/_icons";
 // @import "base/_tags";
 // @import "base/hamburger";
@@ -21,7 +21,7 @@
 
 
 // ---COMPONENTS---
-// @import "components/navigation";
+@import "components/navigation";
 // @import "components/welcome";
 // @import "components/tools";
 // @import "components/strategies";

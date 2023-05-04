@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+
+  &__img {
+    background: url("../../src/img/logo/logo.svg");
+    @extend %img-container;
+    width: 190px;
+    height: 32px;
+  }
+}

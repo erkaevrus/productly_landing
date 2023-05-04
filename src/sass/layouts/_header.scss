@@ -1,0 +1,24 @@
+.header {
+  background: $color-light;
+  padding: 15px 0 17px 0;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
+
+  &__container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  &__navigation {
+    margin-left: 218px;
+    margin-right: 255px;
+  }
+
+  &__buttons {
+
+    >button {
+      width: 114px;
+      height: 46px;
+    }
+  }
+}

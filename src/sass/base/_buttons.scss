@@ -1,0 +1,28 @@
+.button {
+  @extend %font-primary;
+  @extend %transition;
+  @include font($size: 1.6rem, $height: 2.2rem, $weight: 600);
+  border-radius: 4px;
+  cursor: pointer;
+
+  &--bordered {
+    border: 1px solid $color-border;
+    color: $color-text;
+    background: inherit;
+
+    &:hover {
+      background: $color-hovered;
+      border-color: $color-hovered;
+    }
+  }
+
+  &--colored {
+    color: $color-light;
+    background: $color-primary;
+    border: none;
+
+    &:hover {
+      background: $color-additional;
+    }
+  }
+}
