@@ -414,7 +414,7 @@ template {
   display: none;
 }
 
-.navigation__link, .button {
+.navigation__link, .footer-navigation__links a, .button {
   transition: all 0.3s ease-out;
 }
 
@@ -422,7 +422,7 @@ template {
   font-family: "Open Sans", sans-serif;
 }
 
-.welcome__text, .link-button, h1 {
+.welcome__text, .footer-navigation__links, .link-button, h1 {
   font-family: "Poppins", serif;
 }
 
@@ -633,6 +633,45 @@ h5 {
   height: 46px;
 }
 
+.footer {
+  padding: 58px 0 52px;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.footer-navigation {
+  display: flex;
+  column-gap: 155px;
+  justify-content: start;
+  padding-left: 160px;
+}
+.footer-navigation__column:last-child {
+  padding-left: 36px;
+}
+
+.footer-navigation__title {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.footer-navigation__links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+.footer-navigation__links a {
+  color: #544837;
+}
+.footer-navigation__links a:hover {
+  color: #FF9900;
+}
+
 .navigation {
   display: flex;
   justify-content: flex-start;
@@ -813,7 +852,7 @@ h5 {
 
 .contact-us {
   background: #FFEEE1;
-  padding: 62px 0 82px;
+  padding: 62px 0 70px;
 }
 .contact-us__title {
   padding-bottom: 20px;

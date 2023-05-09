@@ -1,6 +1,6 @@
 .contact-us {
   background: $color-background;
-  padding: 62px 0 82px;
+  padding: 62px 0 70px;
 
   &__container {}
 
@@ -29,8 +29,6 @@
     @include font($size: 2.5rem, $height: 2.6rem, $weight: normal)
   }
 }
-
-
 
 .contact-us__form {
 
@@ -63,7 +61,6 @@
     height: 53px;
   }
 }
-
 
 .header-form {
   display: flex;
