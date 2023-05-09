@@ -31,4 +31,21 @@
     width: 55px;
     height: 50px;
   }
+
+  &--phone {
+    background: url("../../src/img/contact-us/phone-icon.svg");
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+
+  }
+
+  &--mail {
+    background: url("../../src/img/contact-us/mail-icon.svg");
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+  }
 }
