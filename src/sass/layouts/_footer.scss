@@ -4,17 +4,34 @@
 
 .footer__container {
   display: flex;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    row-gap: 35px;
+  }
+
 }
 
 .footer-navigation {
   display: flex;
   column-gap: 155px;
-  justify-content: start;
   padding-left: 160px;
+
+  @media (max-width: 1200px) {
+    padding-left: 0px;
+  }
+
+  @media (max-width: 680px) {
+    flex-direction: column;
+  }
 
   &__column {
     &:last-child {
       padding-left: 36px;
+
+      @media (max-width: 680px) {
+      padding-left: 0;
+      }
     }
   }
 }

@@ -2,19 +2,46 @@
   padding: 25px 0 117px;
   overflow: hidden;
 
+  @media (max-width: 900px) {
+    padding: 0 0 78px;
+  }
+
+  @media (max-width: 600px) {
+    padding: 20px 0 49px;
+  }
+
   &__container {
     display: flex;
-    justify-content: space-between;
     align-items: start;
+
+    @media (max-width: 600px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
   }
 
   &__content {
     max-width: calc(550/1200*100%);
     margin-top: 90px;
+
+    @media (max-width: 1000px) {
+      margin-top: 45px;
+      min-width: 388px;
+    }
+
+    @media (max-width: 600px) {
+      margin-top: 14px;
+      min-width: 333px;
+    }
   }
 
   &__title {
     margin-bottom: 30px;
+
+    @media (max-width: 600px) {
+      text-align: center;
+      margin-bottom: 9px;
+    }
   }
 
   &__text {
@@ -22,6 +49,12 @@
     @extend %font-add;
     max-width: 487px;
     margin: 0 0 55px;
+
+    @media (max-width: 600px) {
+      text-align: center;
+      margin-bottom: 30px;
+      @include font($size: 1.6rem, $height: 2.4rem, $weight: normal);
+    }
   }
 
   &__buttons {
@@ -33,11 +66,29 @@
       width: 174px;
       height: 53px;
     }
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      row-gap: 25px;
+    }
   }
 
   &__img {
-    background: url("../../src/img/welcome/welcome.png");
+    @extend %img-container;
     width: 642px;
-    height: 495px;
+    height: 494px;
+
+    @media (max-width: 1400px) {
+      margin-right: -46px;
+      margin-top: 0px;
+      width: 591px;
+      height: 456px;
+    }
+
+    @media (max-width: 600px) {
+      width: 280px;
+      height: 216px;
+      margin: 0;
+    }
   }
 }

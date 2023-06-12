@@ -32,10 +32,19 @@ p {
 h1 {
   @extend %font-add;
   @include font($size: 4.4rem, $height: 5.4rem);
+
+  @media (max-width: 600px) {
+    @include font($size: 3.2rem, $height: 4.2rem);
+  }
+
 }
 
 h2 {
   @include font($size: 3.4rem, $height: 4.6rem);
+
+  @media (max-width: 600px) {
+    @include font($size: 2.4rem, $height: 3.2rem);
+  }
 }
 
 h3 {
@@ -44,6 +53,10 @@ h3 {
 
 h4 {
   @include font($size: 2.2rem, $height: 3.0rem, $weight: 600);
+
+  @media (max-width: 600px) {
+    @include font($size: 2.0rem, $height: 2.7rem);
+  }
 }
 
 h5 {

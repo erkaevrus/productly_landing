@@ -6,5 +6,14 @@
     @extend %img-container;
     width: 190px;
     height: 32px;
+
+    @media (max-width: 600px) {
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 158px;
+      height: 26px;
+    }
+
   }
 }
