@@ -18,7 +18,7 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
   gap: 30px 28px;
   max-width: 1292px;
 
@@ -39,6 +39,10 @@
   background: $color-light;
   filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
 
+  &--hidden {
+    display: none;
+  }
+  
   &__content {
     display: flex;
     flex-direction: column;

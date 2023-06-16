@@ -1031,7 +1031,7 @@ h5 {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
   gap: 30px 28px;
   max-width: 1292px;
 }
@@ -1053,6 +1053,9 @@ h5 {
   align-items: center;
   background: #ffffff;
   filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
+}
+.strategy--hidden {
+  display: none;
 }
 .strategy__content {
   display: flex;
