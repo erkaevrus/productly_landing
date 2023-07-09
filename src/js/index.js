@@ -1,6 +1,8 @@
-
+import data from './data.js'
 
 window.onload = function() {
+
+  //Tags
   addTagsClickHandler()
 }
 
@@ -51,4 +53,15 @@ const filterStrategyBySelectedTag = (selectedTag) => {
       }
     })
   })
+}
+
+
+const renderArticlesToDom = () => {
+  let strategiesContainer = getStrategiesContainer()
+}
+
+const getStrategiesContainer = () => {
+  let strategiesContainer = document.querySelector('.strategy-container')
+  strategiesContainer.innerHTML = ''
+  return strategiesContainer
 }
